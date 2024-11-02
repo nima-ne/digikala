@@ -1,0 +1,19 @@
+div.cook{
+    width: 100%;
+    display: flex;
+    padding-top: 70px;
+    box-sizing: border-box;
+
+    div.img-cook{
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px; }
+
+        img{
+        width: 650px;
+        border-radius: 25px;
+        }
+    }

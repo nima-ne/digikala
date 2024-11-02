@@ -1,0 +1,42 @@
+div.shop-by-category{
+    width: 90%;
+    margin: 30px auto;
+    div.buy-header{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 50px;
+        box-sizing: border-box;
+    }
+}
+
+div.buy-items{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+}
+
+div.first-category ,  div.second-category , div.third-category , div.fourth-category , div.fifth-category , div.sixth-category , div.seventh-category , div.eighth-category{
+    width: 165px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    gap: 30px;
+
+    span{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        img{
+            width: 100px;
+            height: 100px;
+        }
+    }
+}
+

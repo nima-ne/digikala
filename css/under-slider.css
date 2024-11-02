@@ -1,0 +1,47 @@
+
+div.under-slider{
+    width: 100%;
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: space-evenly;
+   align-items: center;
+    padding-top: 20px;
+
+    div{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    img{
+        width: 50px;
+        cursor: pointer;
+        /* position: relative; */
+    }
+    p{
+        font-size: 12px;
+        text-align: center;
+        cursor: pointer;
+    }
+}
+
+div.more{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #F0F0F1;
+    display: flex;
+    flex-flow: row nowrap !important;
+    justify-content: center;
+    align-items: center;
+    gap: 3px !important;
+    cursor: pointer;
+    div.dote{
+        width: 6px;
+        height: 6px;
+        background-color: #A1A3A8;
+        border-radius: 50%;
+    }
+}
